@@ -1,0 +1,27 @@
+#include<iostream>
+using namespace std;
+int main()
+{char a[100],*p;int i,b[5];
+p=a;
+for(i=0;i<5;i++)
+b[i]=0;
+cout<<"write string"<<endl;
+cin>>a;
+for(i=0;i<100;i++)
+{if(*(p+i)=='a')
+b[0]++;
+else if(*(p+i)=='e')
+b[1]++;
+else if(*(p+i)=='i')
+b[2]++;
+else if(*(p+i)=='o')
+b[3]++;
+else if (*(p+i)=='u')
+b[4]++;}
+cout<<"a="<<b[0]<<endl;
+cout<<"e="<<b[1]<<endl;
+cout<<"i="<<b[2]<<endl;
+cout<<"o="<<b[3]<<endl;
+cout<<"u="<<b[4]<<endl;
+cout<<"total no of vowels is="<<b[0]+b[1]+b[2]+b[3]+b[4];
+}
