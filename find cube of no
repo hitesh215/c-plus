@@ -1,0 +1,24 @@
+#include<iostream>
+
+using namespace std;
+
+inline float multiply(float a,float b){
+    return a*b;
+}
+
+inline float cube(float a){
+    return a*a*a;
+}
+
+int main(){
+    float a,b,c;
+    cout<<"Enter the no to multiply:"<<endl;
+    cin>>a;
+    cin>>b;
+    cout<<"Multiplication result becomes:"<<multiply(a,b)<<endl;
+    cout<<"input the no to find cube:"<<endl;
+    cin>>c;
+    cout<<"Cubic result becomes:"<<cube(c)<<endl;
+
+    return 0;
+}
