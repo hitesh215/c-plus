@@ -1,4 +1,11 @@
 #include<iostream>
 using namespace std;
-{cout<<"hii<<endl;
+
+int main()
+{
+string name;
+cout << "What is your name?";
+cin >> name;
+cout << "Hi " << name << "! Have a nice day!";
+return 0;
 }
