@@ -5,7 +5,7 @@ int main()
 p=a;
 for(i=0;i<5;i++)
 b[i]=0;
-cout<<"write string"<<endl;
+cout<<"write string"<<endl; //write a string containing vowels and consonants.
 cin>>a;
 for(i=0;i<100;i++)
 {if(*(p+i)=='a' || *(p+i)=='A' )
