@@ -12,7 +12,7 @@ inline float cube(float a){
 
 int main(){
     float a,b,c;
-    cout<<"Enter the no to multiply:"<<endl;
+    cout<<"Enter the no to multiply:"<<endl;//Jaat ke thaat 16 dooni 8
     cin>>a;
     cin>>b;
     cout<<"Multiplication result becomes:"<<multiply(a,b)<<endl;
